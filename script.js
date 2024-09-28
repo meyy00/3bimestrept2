@@ -3,8 +3,8 @@ const array2 = ["Daniela", "Eduardo", "Fernanda"];
 
 // Função para juntar os dois arrays
 function juntarArrays() {
-    const Arrayjuntado = array1.concat(array2);
-    return Arrayjuntado;;
+    const arrayJuntado = array1.concat(array2);
+    return arrayJuntado;
 }
 
 // Função para inverter o array
@@ -26,16 +26,15 @@ function addItemsToList(array, listId) {
 
 // Função para exibir os arrays
 function displayArrays() {
-    const Arrayjuntados = juntarArrays();
-    addItemsToList(Arrayjuntado, "array-juntado");
+    const arrayJuntado = juntarArrays();
+    addItemsToList(arrayJuntado, "array-juntado");
 
-    const invertidosArray = inverterArray(Arrayjuntados);
-    addItemsToList(invertidosArray, "array-invertido");
+    const arrayInvertido = inverterArray(arrayJuntado);
+    addItemsToList(arrayInvertido, "array-invertido");
 }
 
 // Exibe os arrays ao carregar a página
 window.onload = displayArrays;
-
 
 
 
