@@ -29,7 +29,7 @@ function displayArrays() {
     const Arrayjuntados = juntarArrays();
     addItemsToList(Arrayjuntado, "array-juntado");
 
-    const invertidosArray = inverterArray(Arrayjuntado);
+    const invertidosArray = inverterArray(Arrayjuntados);
     addItemsToList(invertidosArray, "array-invertido");
 }
 
