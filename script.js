@@ -27,9 +27,9 @@ function addItemsToList(array, listId) {
 // Função para exibir os arrays
 function displayArrays() {
     const Arrayjuntados = juntarArrays();
-    addItemsToList(Arrayjuntados, "array-juntado");
+    addItemsToList(Arrayjuntado, "array-juntado");
 
-    const invertidosArray = inverterArray(Arrayjuntados);
+    const invertidosArray = inverterArray(Arrayjuntado);
     addItemsToList(invertidosArray, "array-invertido");
 }
 
